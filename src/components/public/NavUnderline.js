@@ -4,45 +4,36 @@ export class NavUnderline extends Component {
   render() {
     return (
       
-        <div>
-        <div class="nav-scroller py-1 mb-3 border-bottom"id="nav-section">
+        <div className="nav-underline-custom">
+        <div class="nav-scroller py-1 mb-3 border-bottom"className="nav-underline-custom"id="nav-section">
           <nav class="nav nav-underline justify-content-between">
-            <a class="nav-item nav-link link-body-emphasis active" href="#">
-              World
+            <a class="nav-item nav-link link-body-emphasis  " href="#">
+             Mi Mundo
             </a>
             <a class="nav-item nav-link link-body-emphasis" href="#">
-              U.S.
+            
             </a>
             <a class="nav-item nav-link link-body-emphasis" href="#">
-              Technology
+              Universitaria
             </a>
             <a class="nav-item nav-link link-body-emphasis" href="#">
-              Design
+               Diseño 
+            </a>
+            <a class="nav-item nav-link link-body-emphasis" href="#experiencia">
+              Éxperiencia
             </a>
             <a class="nav-item nav-link link-body-emphasis" href="#">
-              Culture
+              Trabajo
             </a>
             <a class="nav-item nav-link link-body-emphasis" href="#">
-              Business
+            Juegos
             </a>
             <a class="nav-item nav-link link-body-emphasis" href="#">
-              Politics
+            Viajes
             </a>
-            <a class="nav-item nav-link link-body-emphasis" href="#">
-              Opinion
-            </a>
-            <a class="nav-item nav-link link-body-emphasis" href="#">
-              Science
-            </a>
-            <a class="nav-item nav-link link-body-emphasis" href="#">
-              Health
-            </a>
-            <a class="nav-item nav-link link-body-emphasis" href="#">
-              Style
-            </a>
-            <a class="nav-item nav-link link-body-emphasis" href="#">
-              Travel
-            </a>
+          
+             
+           
           </nav>
         </div>
       </div>

@@ -1,0 +1,27 @@
+ 
+body {
+    background-color: rgb(236, 65, 204);
+    color: white;
+  }
+/* Estilo personalizado para NavUnderline */
+.nav-underline-custom {
+    background-color: transparent; /* Fondo transparente */
+  }
+  
+  .nav-underline-custom .nav-item.nav-link {
+    color: white !important; /* Color de texto blanco */
+  }
+  /* Estilo personalizado para NavUnderline */
+.nav-underline-custom {
+    background-color: transparent; /* Fondo transparente */
+    display: flex;
+    justify-content:last baseline; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    height: 100px; /* Ajusta la altura según tu preferencia */
+    margin: 0 auto; /* Margen horizontal automático para centrar */
+  }
+  
+  .nav-underline-custom .nav-item.nav-link {
+    color: white !important; /* Color de texto blanco */
+  }
+  
